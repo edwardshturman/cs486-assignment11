@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "cs486-midterm-backend",
+      "name": "cs486-assignment11-edwardshturman",
       "dependencies": {
         "hono": "4.7.2",
       },

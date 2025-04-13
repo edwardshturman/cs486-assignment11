@@ -1,14 +1,14 @@
 name: cs486-assignment11-edwardshturman
 
 services:
-  backend:
-    build: ./backend/
+  app:
+    build: .
     ports:
       - "8081:8081"
     environment:
-      BACKEND_URL: ${BACKEND_URL}
+      URL: ${URL}
     healthcheck:
-      test: curl http://backend:8081
+      test: curl http://app:8081
       timeout: 10s
       interval: 1s
       retries: 10

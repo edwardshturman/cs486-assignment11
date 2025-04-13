@@ -2,7 +2,7 @@ FROM oven/bun:1.2.4
 
 RUN apt-get update && apt-get install -y curl
 
-WORKDIR /usr/src/backend
+WORKDIR /app/
 COPY package.json ./
 COPY bun.lock ./
 RUN bun install
