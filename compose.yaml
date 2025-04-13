@@ -3,6 +3,7 @@ name: cs486-assignment11-edwardshturman
 services:
   app:
     build: .
+    image: app:1.0.0
     ports:
       - "8081:8081"
     environment:
